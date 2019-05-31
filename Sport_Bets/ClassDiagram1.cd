@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Sport_Bets.Bet">
+    <Position X="7.25" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAABAAAhAAAECAAAAAkAAAAAAAAACAAIAA=</HashCode>
+      <FileName>Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sport_Bets.Event_Creator">
+    <Position X="8" Y="1" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAABAAAAAAAAIAACAAAAKQIAEAAABAgAAABY=</HashCode>
+      <FileName>Event_Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sport_Bets.Match">
+    <Position X="12.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ACBQAAAIAAACBACCBAAICAAAAAGKACAAAAAAAQAAEAA=</HashCode>
+      <FileName>Match.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sport_Bets.Match_Manager">
+    <Position X="0.5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAABIAABAAA=</HashCode>
+      <FileName>Match_Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Event_Creator" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Line" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sport_Bets.Player">
+    <Position X="4.25" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAICAAAYAAAAECAAAAAAAAAAEAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Bets" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sport_Bets.Program">
+    <Position X="0.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sport_Bets.Session">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACAAAAAAAAAAAAAAAEAAAAAAABQAAAAAAAEAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
